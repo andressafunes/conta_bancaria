@@ -2,14 +2,15 @@ package conta_bancaria;
 
 import java.util.Scanner;
 
-import conta_bancaria.model.Conta;
 import conta_bancaria.util.Cores;
 
 public class Menu {
 
 	public static void main(String[] args) {
 		
-		//Teste da Classe Conta
+		Scanner leia = new Scanner(System.in);
+		
+		/*//Teste da Classe Conta
 		
 		//Instanciar um novo objeto da classe Conta
 		
@@ -26,9 +27,30 @@ public class Menu {
 		//Depositar
 		c1.depositar(500.00f);
 		c1.visualizador();
+				
+		// Instancia Objetos da Classe Conta Corrente
 		
+		ContaCorrente cc1 = new ContaCorrente(1, 456, 1,"Thuany Silva", 1000000.00f, 100000.00f);
 		
-		Scanner leia = new Scanner(System.in);
+		cc1.visualizador();
+		
+		//Sacar Conta Corrente
+		System.out.println(cc1.sacar(2000000.00f));
+		cc1.visualizador();
+		
+		System.out.println(cc1.sacar(2000.00f));
+		cc1.visualizador();
+		
+		// Depositar Conta Corrente
+		cc1.depositar(5000.00f);
+		cc1.visualizador();
+		
+		// Instancia Objetos da Classe Conta Poupança
+		
+		ContaPoupanca cp1 = new ContaPoupanca(1, 789, 2,"Andressa", 1000000.00f, 24);
+				
+		cp1.visualizador(); */
+				
 		
 		int opcao;
 		

@@ -1,12 +1,14 @@
 package conta_bancaria.model;
 
-public class Conta {
+public abstract class Conta {
 	
 	private int numero;
 	private int agencia;
 	private int tipo;
 	private String titular;
 	private float saldo;
+	
+	public Conta() {} // Sobrecarga de Metodo (Mesmo metodo, mesmo nome, funcionalidade diferentes)
 	
 	public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
 		this.numero = numero;
