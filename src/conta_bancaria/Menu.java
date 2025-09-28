@@ -17,42 +17,6 @@ public class Menu {
 
 	public static void main(String[] args) {
 
-		/*
-		 * //Teste da Classe Conta
-		 * 
-		 * //Instanciar um novo objeto da classe Conta
-		 * 
-		 * Conta c1 = new Conta(1, 123, 1, "Andressa Funes", 500000.00f);
-		 * 
-		 * // Visualizar os dados
-		 * 
-		 * c1.visualizador();
-		 * 
-		 * //Sacar c1.sacar(1200.00f); c1.visualizador();
-		 * 
-		 * //Depositar c1.depositar(500.00f); c1.visualizador();
-		 * 
-		 * // Instancia Objetos da Classe Conta Corrente
-		 * 
-		 * ContaCorrente cc1 = new ContaCorrente(1, 456, 1,"Thuany Silva", 1000000.00f,
-		 * 100000.00f);
-		 * 
-		 * cc1.visualizador();
-		 * 
-		 * //Sacar Conta Corrente System.out.println(cc1.sacar(2000000.00f));
-		 * cc1.visualizador();
-		 * 
-		 * System.out.println(cc1.sacar(2000.00f)); cc1.visualizador();
-		 * 
-		 * // Depositar Conta Corrente cc1.depositar(5000.00f); cc1.visualizador();
-		 * 
-		 * // Instancia Objetos da Classe Conta Poupança
-		 * 
-		 * ContaPoupanca cp1 = new ContaPoupanca(1, 789, 2,"Andressa", 1000000.00f, 24);
-		 * 
-		 * cp1.visualizador();
-		 */
-
 		int opcao;
 
 		criarContasTeste();
